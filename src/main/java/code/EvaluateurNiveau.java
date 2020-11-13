@@ -11,6 +11,7 @@ public class EvaluateurNiveau {
 	private static final int LIMITE_CB=50;
 	private static final int LIMITE_BA=70;
 	
+	//Fonction estEntier
 	private static boolean estEntier( String valeur ) {
 		try {
 			Integer.valueOf(valeur);
