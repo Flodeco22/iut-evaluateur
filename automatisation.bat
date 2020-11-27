@@ -3,5 +3,5 @@ SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_241
 
 SET PATH=%MAVEN_HOME%\bin;%JAVA_HOME%\bin;%PATH%
 
-mvn cobertura:cobertura jar:jar
+mvn cobertura:cobertura -Dcobertura.report.format=xml checkstyle:checkstyle jar:jar
 
